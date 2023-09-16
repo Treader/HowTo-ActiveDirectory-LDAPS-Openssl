@@ -65,16 +65,16 @@ req_extensions     = v3_ca
 countryName=Country Name (2 letter code)
 stateOrProvinceName=State or Province Name (full name)
 localityName=Locality Name (eg, city)
-0.organizationName=Your Company/Organization Name.
-1.organizationName=Organizational Unit Name (Department)
+organizationName=Your Company/Organization Name.
+organizationalUnitName=Organizational Unit Name (Department)
 commonName=Your Domain Name
 
 #Modify for your details here or answer the prompts from openssl
 countryName_default=US
 stateOrProvinceName_default=Texas
 localityName_default=Dallas
-0.organizationName_default=My Company Name LTD.
-1.organizationName_default=IT
+organizationName_default=My Company Name LTD.
+organizationalUnitName_default=IT
 commonName_default=example.com
 [ v3_ca ]
 keyUsage=critical,keyCertSign
